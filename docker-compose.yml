@@ -5,3 +5,7 @@ services:
     container_name: "elm_book"
     volumes:
       - ./app:/app
+    ports:
+      - "8000:8000"
+    stdin_open: true
+    tty: true
