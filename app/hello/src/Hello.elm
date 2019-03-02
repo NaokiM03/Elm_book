@@ -1,7 +1,8 @@
 module Main exposing (main)
 
-import Html exposing (text)
+import Html exposing (..)
+import Html.Attributes exposing (..)
 
 
 main =
-    text "Hello, world!"
+    a [ href "https://elm-lang.org" ] [ text "Elm" ]
